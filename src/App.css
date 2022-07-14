@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.navbar-head{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 2rem;
+  margin: 1rem;
+  background-color: black;
+}
+.navbar-head>div>a{
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
